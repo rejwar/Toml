@@ -1,0 +1,8 @@
+# Prover.toml
+
+# Public inputs
+flight_id = 1234567
+hashed_ticket = 781239123912839123  # Precomputed hash
+
+# Private input
+ticket = 12345678910  # flight_id + passenger_secret
